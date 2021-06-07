@@ -8,6 +8,8 @@ public class Student {
     public Student(String name, int roll_no){
         this.name = name;
         this.roll_no = roll_no;
+        this.address = "";
+        this. phone_number = "";
     }
 
     public String getName() {
@@ -40,5 +42,9 @@ public class Student {
 
     public void setPhone_number(String phone_number) {
         this.phone_number = phone_number;
+    }
+
+    public void printInfo(){
+        System.out.println("Student name: " + this.name + "\nStudent roll number: " + this.roll_no + "\nStudent address: " + this.address +"\nStudent Phone number: " + this.phone_number);
     }
 }

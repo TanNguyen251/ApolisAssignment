@@ -10,6 +10,12 @@ public class Main {
         Student student2 = new Student("Sam", 1);
 
         student1.setAddress("2354 Main st, Sacramento 95768");
-        student2.setPhone_number("9163824075");
+        student1.setPhone_number("9163824075");
+
+        student2.setAddress("1728 55th st, Sacramento 95623");
+        student2.setPhone_number("5103547396");
+
+        student1.printInfo();
+        student2.printInfo();
     }
 }
