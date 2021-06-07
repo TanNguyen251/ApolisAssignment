@@ -18,8 +18,12 @@ public class Main {
         student1.printInfo();
         student2.printInfo();
 
-        Triangle triangle1 = new Triangle(3,4,5);
+        Triangle triangle1 = new Triangle();
         triangle1.printArea();
         triangle1.printPerimeter();
+
+        Triangle triangle2 = new Triangle(3,4,5);
+        triangle2.printArea();
+        triangle2.printPerimeter();
     }
 }

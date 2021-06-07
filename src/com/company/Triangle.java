@@ -7,6 +7,12 @@ public class Triangle implements Shape{
     private int height;
     private int hypotenuse;
 
+    public Triangle(){
+        this.base = 3;
+        this.height = 4;
+        this.hypotenuse = 5;
+    }
+
     public Triangle(int base, int height, int hypotenuse){
         this.base = base;
         this.height = height;
