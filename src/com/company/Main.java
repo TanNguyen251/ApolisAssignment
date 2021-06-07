@@ -25,5 +25,15 @@ public class Main {
         Triangle triangle2 = new Triangle(3,4,5);
         triangle2.printArea();
         triangle2.printPerimeter();
+
+        Rectangle rectangle1 = new Rectangle(4,5);
+        rectangle1.printArea();
+        rectangle1.printPerimeter();
+        System.out.println("Rectangle 1 area: " + rectangle1.area());
+
+        Rectangle rectangle2 = new Rectangle(5,8);
+        rectangle2.printArea();
+        rectangle2.printPerimeter();
+        System.out.println("Rectangle 2 area: " + rectangle2.area());
     }
 }
